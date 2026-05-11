@@ -1,0 +1,22 @@
+Phase 2 — Build JavaScript Projects
+
+This is where real learning starts.
+
+Build these without copying tutorials
+    Beginner
+        Todo app
+        Calculator
+        Password generator
+        Weather app
+        Quiz app
+    Intermediate
+        Notes app with localStorage
+        Infinite scroll
+        Drag and drop UI
+        Kanban board
+        Movie search app
+    Advanced
+        Mini frontend framework
+        Virtual DOM demo
+        Chat app
+        Real-time dashboard

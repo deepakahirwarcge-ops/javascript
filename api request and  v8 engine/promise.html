@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const reustUrl = 'https://api.github.com/users/hiteshchoudhary'
+
+    fetch(reustUrl)
+    .then(response => response.json())
+    .then(data => {
+        console.log(typeof data);
+        console.log(data.followers);
+    })
+    .catch(error => console.error('Error:', error));
+</script>
+</html>
